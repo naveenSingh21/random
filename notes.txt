@@ -12,3 +12,21 @@ git stash clear
  git remote -v
  git push origin master - push the code to the github riposatry
 
+we should never commit to main branch
+ git branch feature - craete a branch
+git branch
+git checkout feature
+
+create a branch make changes and merge it to main/master
+git merge feature
+
+fork - will come to your account any existing repo.
+
+git clone https://github.com/naveenSingh21/random.git
+
+ git remote add upstream  https://github.com/naveenSingh21/random.git
+PS D:\gitnotes> git remote -v
+origin  https://github.com/naveenSingh21/random.git (fetch)
+origin  https://github.com/naveenSingh21/random.git (push)
+upstream        https://github.com/naveenSingh21/random.git (fetch)
+upstream        https://github.com/naveenSingh21/random.git (push)
