@@ -1,2 +1,14 @@
 git init
 git status
+ git add . - staging area
+ git commit -m "added"
+ git restore --staged .\notes.txt
+git log
+ git reset  28babfed97e6120d611aaee0d1d84443a34aab92 - remove previous commits
+git stash - go to backstage
+git stash pop
+git stash clear
+ git remote add origin https://github.com/naveenSingh21/random.git - create a reposatry and add this from git 
+ git remote -v
+ git push origin master - push the code to the github riposatry
+
